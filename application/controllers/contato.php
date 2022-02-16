@@ -7,27 +7,26 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'Landing Modelo';
-        $data['description'] = 'Descrição';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Caeli Comunicação';
+        $data['description'] = 'SOMOS UMA AGÊNCIA QUE UNE CRIAÇÃO E ESTRATÉGIA PARA OTIMIZAÇÃO DE RESULTADOS.';
+        $data['keywords'] = 'BRANDING; DIGITAL; ESTRATÉGIAS PROMOCIONAIS; MÍDIA ESTRATÉGICA; PLANEJAMENTO; CONCEITUAÇÃO DE PRODUTO; MARKETING DE VAREJO; DESIGN; CAMPANHAS ON E OFF; ENDOMARKETING; TRADE / PDV; MERCHANDISING';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
         if($this->input->post('enviar_email') == "enviar"){
             $nome = $this->input->post('nome');
             $email = $this->input->post('email');
-            $telefone = $this->input->post('telefone');
             $assunto1 = $this->input->post('assunto1');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.landingpagemodelo.com.br');
+            $assunto = utf8_decode('[Novo Lead] LP - Caeli Comunicação');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@landingpagemodelo.com.br","Landing Modelo");
-            $this->email->to('contato@landingpagemodelo.com.br');
-            $this->email->cc('front.baronista@gmail.com');
+            $this->email->from("contato@caelicomunicacao.com.br","Caeli Comunicação");
+            $this->email->to('contato@caelicomunicacao.com.br');
+            $this->email->cc('igor.sorrilha@gmail.com');
             //$this->email->cc('front.baronista@gmail.com');
 
             $this->email->subject($assunto);
@@ -35,9 +34,8 @@ class Contato extends CI_Controller{
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
             Nome:		{$nome}<br/>
                 E-mail:		{$email}<br/>
-                    Telefone:	{$telefone}<br/>
-                        Assunto:	{$assunto1}<br/>
-                            Mensagem:	{$mensagem}<br/>
+                    Assunto:	{$assunto1}<br/>
+                        Mensagem:	{$mensagem}<br/>
                             </body></html>");
 
             if($this->email->send()){
@@ -57,9 +55,9 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'Landing Modelo';
-        $data['description'] = 'Descrição';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Caeli Comunicação';
+        $data['description'] = 'SOMOS UMA AGÊNCIA QUE UNE CRIAÇÃO E ESTRATÉGIA PARA OTIMIZAÇÃO DE RESULTADOS.';
+        $data['keywords'] = 'BRANDING; DIGITAL; ESTRATÉGIAS PROMOCIONAIS; MÍDIA ESTRATÉGICA; PLANEJAMENTO; CONCEITUAÇÃO DE PRODUTO; MARKETING DE VAREJO; DESIGN; CAMPANHAS ON E OFF; ENDOMARKETING; TRADE / PDV; MERCHANDISING';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -71,9 +69,9 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'Landing Modelo';
-        $data['description'] = 'Descrição';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Caeli Comunicação';
+        $data['description'] = 'SOMOS UMA AGÊNCIA QUE UNE CRIAÇÃO E ESTRATÉGIA PARA OTIMIZAÇÃO DE RESULTADOS.';
+        $data['keywords'] = 'BRANDING; DIGITAL; ESTRATÉGIAS PROMOCIONAIS; MÍDIA ESTRATÉGICA; PLANEJAMENTO; CONCEITUAÇÃO DE PRODUTO; MARKETING DE VAREJO; DESIGN; CAMPANHAS ON E OFF; ENDOMARKETING; TRADE / PDV; MERCHANDISING';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

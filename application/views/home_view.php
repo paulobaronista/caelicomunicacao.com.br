@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default menu">
+<!-- <nav class="navbar navbar-default menu">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off-mobile">
@@ -18,18 +18,18 @@
                         <li><a class="scrollink" href="#premios">Prêmios</a></li>
                         <li><a class="scrollink active" href="#receitas">Receitas</a></li>
                         <li><a class="scrollink" href="#sobre-nos">Sobre nós</a></li>
-                        <!--<li><a href="<?php echo base_url(); ?>blog">Blog</a></li>-->
+                        <li><a href="<?php echo base_url(); ?>blog">Blog</a></li>
                         <li><a class="scrollink fale-conosco" href="#fale-conosco">Fale conosco</a></li>
                         <li class="redes"><a href="https://www.instagram.com/azeitebatalha/" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/insta.png" alt="Instagram"></a></li>
                         <li class="redes"><a href="https://facebook.com/azeitebatalha" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/face.png" alt="Facebook"></a></li>
-                        <!--<li class="redes"><a href="" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/youtube.png" alt="Youtube"></a></li> -->
+                        <li class="redes"><a href="" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/youtube.png" alt="Youtube"></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-</nav>
-<div id="home" class="container-fluid padding-off home">
+</nav> -->
+<!-- <div id="home" class="container-fluid padding-off home">
     <div class="galeria">
         <section class="glr-home slider">
             <div>
@@ -62,7 +62,7 @@
             </div>
         </section>
     </div>
-</div>
+</div> -->
 
 
 
@@ -74,9 +74,6 @@
 <div id="fale-conosco" class="container-fluid padding-off contato">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center tt">
-                <p>Fale com a gente e leve um dos melhores azeites do mundo para a sua mesa.</p>
-            </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
                 <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                     <div class="group-form">
@@ -87,15 +84,10 @@
                             <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-MAIL*" />
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 form-group">
-                            <input id="telefone" type="text" class="telefone form-control" name="telefone" placeholder="TELEFONE" />
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
                             <div class="custom_select">
                                 <select id="assunto1" class="assunto1 form-control" name="assunto1" required="required">
                                     <option value="" disabled selected>ASSUNTO*</option>
                                     <option value="Dúvidas ou Sugestões">Dúvidas ou Sugestões</option>
-                                    <option value="Revenda">Revenda</option>
-                                    <option value="Representação Comercial">Representação Comercial</option>
                                     <option value="Outros assuntos">Outros assuntos</option>
                                 </select>
                             </div>
