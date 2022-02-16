@@ -26,7 +26,7 @@ class Contato extends CI_Controller{
 
             $this->email->from("contato@caelicomunicacao.com.br","Caeli Comunicação");
             $this->email->to('contato@caelicomunicacao.com.br');
-            $this->email->cc('igor.sorrilha@gmail.com');
+            $this->email->cc('financeiro@caelicomunicacao.com.br, renata@caelicomunicacao.com.br, renata@spicycomm.com.br');
             //$this->email->cc('front.baronista@gmail.com');
 
             $this->email->subject($assunto);

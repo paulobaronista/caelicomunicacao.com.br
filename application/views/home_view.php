@@ -1,76 +1,167 @@
-<!-- <nav class="navbar navbar-default menu">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off-mobile">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand scrollink" href="#home"><img src="<?= base_url(); ?>assets/images/logo.png" alt="Batalha"></a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="scrollink" href="#produtos">Produtos</a></li>
-                        <li><a href="http://compras.landingpagemodelo.com.br/" target="_blank"><span class="dst">Compre aqui</span></a></li>
-                        <li><a class="scrollink" href="#premios">Prêmios</a></li>
-                        <li><a class="scrollink active" href="#receitas">Receitas</a></li>
-                        <li><a class="scrollink" href="#sobre-nos">Sobre nós</a></li>
-                        <li><a href="<?php echo base_url(); ?>blog">Blog</a></li>
-                        <li><a class="scrollink fale-conosco" href="#fale-conosco">Fale conosco</a></li>
-                        <li class="redes"><a href="https://www.instagram.com/azeitebatalha/" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/insta.png" alt="Instagram"></a></li>
-                        <li class="redes"><a href="https://facebook.com/azeitebatalha" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/face.png" alt="Facebook"></a></li>
-                        <li class="redes"><a href="" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/youtube.png" alt="Youtube"></a></li>
-                    </ul>
-                </div>
+<nav class="navbar navbar-mobile wow fadeInDown menu">
+    <div class="caeli-navbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Caeli</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav menu">
+                <li><a href="#home" class="item1 scrollink">Home</a></li>
+                <li><a href="#sobrenos" class="item2 scrollink">Sobre nós</a></li>
+                <li><a href="#cases" class="item3 scrollink">Cases</a></li>
+                <li><a href="#fale-conosco" class="item4 scrollink">Fale Conosco</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="home" class="container-fluid padding-off home-div">
+    <img src="<?= base_url(); ?>assets/images/img-header.jpg" class="img-responsive hidden-xs">
+    <img src="<?= base_url(); ?>assets/images/img-header-mobile.jpg" class="img-responsive visible-xs">
+    <img src="<?= base_url(); ?>assets/images/tablet.png" alt="Tablet" class="img-responsive tablet-img wow fadeInDownBig">
+</div>
+
+<div id="sobrenos" class="container-fluid padding-off sobre-nos">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt-sobre-nos wow fadeInLeft">
+        <h1>Sobre nós</h1>
+        <p>Somos uma agência que une criação e estratégia para otimização de resultados.</p>
+        <p>Somos o parceiro ideal que trabalha todos os dias no progresso e
+            crescimento do seu negócio. Sempre nos atualizando com as constantes
+            mudanças do mercado e nas frequentes conversas com seus
+            diferentes públicos no lugar ou dispositivos que estão.</p>
+        <p>Trabalhamos por resultados no presente, pois no futuro isso fará toda a diferença.</p>
+        <div class="boxes">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 branding">
+                <h3>Branding</h3>
+                <p>Construímos marcas fortes para o
+                    mercado, com estratégias de
+                    comunicação que criam uma
+                    identificação positiva no público.
+                    Acreditamos na imagem da marca
+                    como primordial para o sucesso
+                    comercial de produtos, serviços e
+                    empresas.</p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 digital">
+                <h3>Digital</h3>
+                <p>Geração de leads. In bound marketing.
+                    Gestão de funil de vendas. Inteligência
+                    de mercado pelos meios digitais.
+                    Gestão de presença online.
+                    Ferramentas que trazem resultados.
+                    Resultado efetivo e diferenciado
+                    também para o mercado imobiliário.</p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 estrategias">
+                <h3>Estratégias Promocionais</h3>
+                <p>Estímulo a compra, ao uso e à
+                    fidelização do público por meio de
+                    ações específicas nos pontos de
+                    contato. Estreitamos laços com a
+                    melhor relação custo-benefício,
+                    fazendo uso da criatividade e da
+                    inteligência para encontrar alternativas.</p>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 infos">
+                <p>Mídia Estratégica;</p>
+                <p>Planejamento;</p>
+                <p>Conceituação de Produto;</p>
+                <p>Marketing de Varejo;</p>
+                <p>Design;</p>
+                <p>Campanhas on e off;</p>
+                <p>Endomarketing;</p>
+                <p>Trade / PDV;</p>
+                <p>Merchandising;</p>
+                <p>...</p>
             </div>
         </div>
     </div>
-</nav> -->
-<!-- <div id="home" class="container-fluid padding-off home">
-    <div class="galeria">
-        <section class="glr-home slider">
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_01.jpg" alt="Landing Modelo">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_01.jpg" alt="Landing Modelo">
-            </div>
-            <div>
-                <a class="scrollink" href="#receitas">
-                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_02.jpg" alt="Landing Modelo">
-                </a>
-                <a class="scrollink" href="#receitas">
-                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_02.jpg" alt="Landing Modelo">
-                </a>
-            </div>
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_03.jpg" alt="Landing Modelo">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_03.jpg" alt="Landing Modelo">
-            </div>
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_04.jpg" alt="Landing Modelo">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_04.jpg" alt="Landing Modelo">
-            </div>
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_05.jpg" alt="Landing Modelo">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_05.jpg" alt="Landing Modelo">
-            </div>
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_06.jpg" alt="Landing Modelo">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_06.jpg" alt="Landing Modelo">
-            </div>
-        </section>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-sobre-nos wow fadeInRight">
+        <img src="assets/images/img-sobre-nos.png" class="img-responsive">
     </div>
-</div> -->
+</div>
+
+<div id="cases" class="container-fluid cases wow fadeInUp">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+        <h1 class="visible-xs">Cases</h1>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <img src="assets/images/cases.png" class="img-responsive center-block hidden-xs">
+        <img src="assets/images/cases-mobile.png" class="img-responsive center-block visible-xs">
+    </div>
+</div>
+
+<div id="fale-conosco" class="container-fluid contato">
+    <div class="col-xs-8 col-sm-6 col-sm-push-6 col-md-6 col-md-push-6 col-lg-6 col-lg-push-6 wow fadeInRight caeli-form">
+        <h1>Fale Conosco</h1>
+        <div class="form-div">
+            <form method="post" role="form" action="<?php echo base_url("contato") ?>">
+
+                <div class="input-box">
+                    <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="Nome*" />
+                </div>
+
+                <div class="input-box">
+                    <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-mail*" />
+                </div>
+
+                <div class="input-box">
+                    <div class="custom_select">
+                        <select id="assunto1" class="assunto form-control" name="assunto1" required="required">
+                            <option value="" disabled selected>ASSUNTO*</option>
+                            <option value="Dúvidas ou Sugestões">Dúvidas ou Sugestões</option>
+                            <option value="Outros assuntos">Outros assuntos</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <textarea id="form-mensagem" class="msg form-control" name="mss" required="required" placeholder="Mensagem"></textarea>
+                </div>
+
+                <div class="input-box btn-enviar">
+                    <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
+                </div>
+
+                <div class="input-box obrigatorio">
+                    <small>* Os campos marcados com asterisco são de preenchimento obrigatório.</small>
+                </div>
+
+            </form>
+        </div>
 
 
 
 
+        <div class="col-sm-10 col-md-9 col-lg-9 rodape">
+            <p>Belo Horizonte: R. Alagoas, 772 <br class="visible-xs">- <br class="visible-sm">5° Andar - Savassi<br>
+                Belo Horizonte - MG, 30130-160</p>
+            <p>Operação São Paulo: Av. do Café, 238 - <br class="visible-sm">Vila Guarani<br>
+                São Paulo - SP, 04310-040</p>
+            <p>Telefone 11 985440130</p>
+            <p class="copyright">Copyright © 2010-2022 CAELIS PROPAGANDAL. <br class="visible-sm visible-xs">All rights reserved.</p>
+        </div>
 
+    </div>
 
+    <div class="col-xs-4 col-sm-6 col-sm-pull-6 col-md-6 col-md-pull-6 col-lg-6 col-lg-pull-6 wow fadeInLeft celular">
+        <img src="<?= base_url(); ?>assets/images/celular.png" class="img-responsive">
+    </div>
 
+</div>
 
+<?php
+if (isset($email_enviado))
+    echo $email_enviado;
+?>
+
+<!-- 
 <div id="fale-conosco" class="container-fluid padding-off contato">
     <div class="container">
         <div class="row">
@@ -106,24 +197,4 @@
             </div>
         </div>
     </div>
-</div>
-
-
-<!-- <div id="cookies" class="cookies">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
-        <div class="col-xs-12 col-sm-9 col-md-9">
-            <p>
-                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos
-                <a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições de Uso do Site</a> e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-3 col-md-3">
-            <a href="#" class="btn_cookie btn center-block">Aceito</a>
-        </div>
-    </div>
 </div> -->
-
-<?php
-if (isset($email_enviado))
-    echo $email_enviado;
-?>

@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=fonts.css.map */
+@font-face {
+  font-family: 'Pirulen';
+  src: url("../fonts/pirulen-rg.otf") format("opentype");
+  src: url("../fonts/pirulen-rg.ttf") format("truetype");
+  src: url("../fonts/pirulen-rg.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Heading72Light';
+  src: url("../fonts/HeadingNow-72Light.otf") format("opentype");
+  src: url("../fonts/HeadingNow-72Light.ttf") format("truetype");
+  src: url("../fonts/HeadingNow-72Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Heading75Medium';
+  src: url("../fonts/HeadingNow-75Medium.otf") format("opentype");
+  src: url("../fonts/HeadingNow-75Medium.ttf") format("truetype");
+  src: url("../fonts/HeadingNow-75Medium.woff") format("woff");
+}
+/*# sourceMappingURL=fonts.css.map */

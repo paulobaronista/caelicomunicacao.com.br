@@ -1,34 +1,4 @@
-$(document).on('ready', function () {
-    $(".glr-home").slick({
-        dots: true,
-        infinite: true,
-        speed: 500,
-        autoplay: true,
-        autoplaySpeed: 20000,
-    });
-
-    $(".glr-receitas").slick({
-        dots: false,
-        infinite: true,
-        speed: 500,
-        autoplay: true,
-        autoplaySpeed: 20000,
-    });
-
-    $(".galeria-01").slick({
-        dots: false,
-        infinite: true,
-        speed: 500,
-        autoplay: true,
-        autoplaySpeed: 8000,
-    });
-});
-
-$(document).ready(function () {
-    $('#modalPascoa').modal();
-});
-
-$(document).ready(function () {
+/* $(document).ready(function () {
     $('#cookies').show();
     if (window.localStorage.getItem('accept_cookies')) {
         $('#cookies').hide();
@@ -39,7 +9,7 @@ $(document).ready(function () {
         $('#cookies').hide();
         return false;
     });
-});
+}); */
 
 // Script Scroll OnPage
 $(document).ready(function () {
@@ -85,18 +55,6 @@ function onScroll(event) {
     });
 }
 
-$(document).ready(function () {
-    var scroll_pos = 0;
-    $(document).scroll(function () {
-        scroll_pos = $(this).scrollTop();
-        if (scroll_pos > 100) {
-            $(".menu").addClass('active');
-        } else {
-            $(".menu").removeClass('active');
-        }
-    });
-});
-
 $(document).on('ready', function () {
     $('.navbar-collapse a').click(function () {
         $(".navbar-collapse").collapse('hide');
@@ -106,7 +64,7 @@ $(document).on('ready', function () {
 $(document).ready(function () {
     $("#close").click(function () {
         $("#aviso").hide();
-        window.location.href = "https://landingpagemodelo.com.br/"
+        window.location.href = "https://caelicomunicacao.com.br/"
     });
 });
 
