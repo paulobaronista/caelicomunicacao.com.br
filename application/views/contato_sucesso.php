@@ -113,8 +113,8 @@
 
                 <div class="input-box">
                     <div class="custom_select">
-                        <select id="assunto1" class="assunto1 form-control" name="assunto1" required="required">
-                            <option value="" disabled selected>ASSUNTO*</option>
+                        <select id="assunto1" class="assunto form-control" name="assunto1">
+                            <option value="" disabled selected>ASSUNTO</option>
                             <option value="Dúvidas ou Sugestões">Dúvidas ou Sugestões</option>
                             <option value="Outros assuntos">Outros assuntos</option>
                         </select>
@@ -125,11 +125,11 @@
                     <textarea id="form-mensagem" class="msg form-control" name="mss" required="required" placeholder="Mensagem"></textarea>
                 </div>
 
-                <div class="input-box">
+                <div class="input-box btn-enviar">
                     <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
                 </div>
 
-                <div class="input-box">
+                <div class="input-box obrigatorio">
                     <small>* Os campos marcados com asterisco são de preenchimento obrigatório.</small>
                 </div>
 

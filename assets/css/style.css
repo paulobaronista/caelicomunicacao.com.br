@@ -152,6 +152,10 @@
   padding-right: 0px !important;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 p {
   margin: 0;
 }
