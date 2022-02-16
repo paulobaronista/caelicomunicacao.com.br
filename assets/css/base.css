@@ -161,7 +161,7 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #7d6b3f;
+  background-color: #3dc4c6;
   padding: 20px 10px;
   position: relative;
 }
@@ -179,7 +179,7 @@ p {
 }
 
 .aviso div p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Heading72Light', sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 18px;

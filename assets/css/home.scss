@@ -1,11 +1,655 @@
+.home-div {
+    position: relative;
+
+    .tablet-img {
+        position: absolute;
+        top: -70%;
+        right: 10%;
+        width: 56%;
+    }
+}
+
+.sobre-nos {
+    padding-top: 20%;
+
+    .txt-sobre-nos{
+        padding-left: 6%;
+    
+        h1 {
+            font-size: 5.1vw;
+            font-family: 'Pirulen', sans-serif;
+            color: black;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-family: 'Heading72Light', sans-serif;
+            text-transform: uppercase;
+            color: #72747e;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .boxes {
+            margin-top: 30px;
+            
+            .branding {
+                border: 4px solid #2c8e92;
+                border-radius: 30px;
+                width: 47%;
+                padding-left: 30px;
+                height: 14.6vw;
+                margin-top: 1.5vw;
+
+                h3 {
+                    font-family: 'Heading75Medium', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 1.2vw;
+                    color: #2c8e92;
+                    margin-bottom: 0.6vw;
+                    letter-spacing: 2px;
+                    margin-top: 1.4vw;
+                }
+
+                p{
+                    font-size: 0.8vw;
+                    text-transform: none;
+                }
+            }
+
+            .digital {
+                border: 4px solid #e6a321;
+                border-radius: 30px;
+                width: 47%;
+                padding-left: 30px;
+                height: 14.6vw;
+                margin-top: 1.5vw;
+                margin-left: 6%;
+
+                h3 {
+                    font-family: 'Heading75Medium', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 1.2vw;
+                    color: #e6a321;
+                    margin-bottom: 0.6vw;
+                    letter-spacing: 2px;
+                    margin-top: 1.4vw;
+                }
+
+                p{
+                    font-size: 0.8vw;
+                    text-transform: none;
+                }
+            }
+
+            .estrategias {
+                border: 4px solid #ea673d;
+                border-radius: 30px;
+                width: 47%;
+                padding-left: 30px;
+                height: 14.6vw;
+                margin-top: 1.5vw;
+
+                h3 {
+                    font-family: 'Heading75Medium', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 1.2vw;
+                    color: #ea673d;
+                    margin-bottom: 0.6vw;
+                    letter-spacing: 2px;
+                    margin-top: 1.2vw;
+                }
+
+                p{
+                    font-size: 0.8vw;
+                    text-transform: none;
+                }
+            }
+
+            .infos {
+                margin-top: 2.5vw;
+                margin-left: 1vw;
+                
+                p {
+                    font-family: "Heading75Medium", sans-serif;
+                    line-height: 1.3vw;
+                    color: #9f2169;
+                    letter-spacing: 2px;
+                    font-size: 0.9vw;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .img-sobre-nos {
+        margin-top: -2%;
+    }
+}
+
+.cases {
+    padding-top: 5%;
+}
+
+.contato {
+    .caeli-form {
+        h1 {
+            font-family: 'Pirulen', sans-serif;
+            font-size: 5.4vw;
+            text-transform: uppercase;
+            color: black;
+            margin-left: -37%;
+            margin-top: 60px;
+        }
+
+        .form-div {
+            margin-top: 10%;
+            margin-left: -5%;
+
+            .input-box {
+                margin-bottom: 1.5vw;
+
+                input {
+                    outline: none;
+                    box-shadow: none;
+                }
+
+                textarea {
+                    outline: none;
+                    box-shadow: none;
+                    height: 45px;
+                }
+
+                .form-control {
+                    width: 85%;
+                    height: 45px;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-radius: 0;
+                    
+                    &::placeholder {
+                        color: #a4a7b6;
+                        font-family: 'Heading72Light';
+                        text-transform: uppercase;
+                        font-size: 16px;
+                    }
+                }
+
+                .nome {
+                    border-bottom: 2px solid #3dc4c6;
+                }
+
+                .email {
+                    border-bottom: 2px solid #ffd22b;
+                }
+
+                .assunto {
+                    border-bottom: 2px solid #ff7d14;
+                    color: #a4a7b6;
+                    font-family: 'Heading72Light';
+                    font-size: 16px;
+                    padding-left: 5px;
+                    box-shadow: inset 0 0 0 5px #fff;
+                }
+
+                .msg {
+                    border-bottom: 2px solid #c72a8b;
+                }
+            }
+
+            .obrigatorio {
+                small {
+                    font-family: 'Heading72light';
+                    color: #a4a7b6;
+                }
+            }
+            
+            .btn-enviar {
+                display: flex;
+                justify-content: end;
+                width: 85%;
+
+                button {
+                    background-color: #3dc4c6;
+                    color: white;
+                    font-family: 'Heading72Light', sans-serif;
+                    text-transform: uppercase;
+                    height: 35px;
+                    width: 80px;
+                }
+            }
+        }
+    }
+    
+    .rodape {
+        text-align: center;
+        margin-top: 1.5vw;
+        margin-bottom: 10%;
+        
+        p {
+            font-family: 'Heading72Light', sans-serif;
+            font-size: 1vw;
+            text-transform: uppercase;
+            color: #9294a2;
+            margin-bottom: 2vw;
+        }
+
+        .copyright {
+            font-family: 'Heading72Light', sans-serif;
+            font-size: 0.7vw;
+            text-transform: uppercase;
+            color: #9294a2;
+            margin-bottom: 0;
+            margin-top: 3vw;
+        }
+        
+    }
+}
+
+ 
 /* Extra Small */
-@media(max-width:767px) {}
+@media(max-width:767px) {
+    .home-div {
+        margin-top: 17%;
+
+        .tablet-img {
+            top: 10%;
+            right: 0%;
+            width: 43%;
+        }
+    }
+
+    .sobre-nos {
+        padding-top: 4%;
+
+        .txt-sobre-nos {
+            padding-left: 3%;
+            
+            h1 {
+                font-size: 5vw;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-size: 2.4vw;
+                text-align: center;
+            }
+
+            .boxes {
+                margin-top: 20px;
+                
+                .branding {
+                    width: 49%;
+                    height: 36vw;
+                    padding: 0 10px;
+
+                    h3 {
+                        font-size: 3.2vw;
+                        padding-top: 3px;
+                        text-align: center;
+                        margin-bottom: 2vw;
+                    }
+                    
+                    p {
+                        font-size: 2vw;
+                        text-align: center;
+                    }
+                }
+                
+                .digital {
+                    width: 49%;
+                    height: 36vw;
+                    padding: 0 10px;
+                    margin-left: 2%;
+
+                    h3 {
+                        font-size: 3.2vw;
+                        padding-top: 3px;
+                        text-align: center;
+                        margin-bottom: 2vw;
+                    }
+                    
+                    p {
+                        font-size: 2vw;
+                        text-align: center;
+                    }
+                }
+
+                .estrategias {
+                    width: 49%;
+                    height: 36vw;
+                    padding: 0 10px;
+                    margin-top: 6vw;
+
+                    h3 {
+                        font-size: 3vw;
+                        padding-top: 3px;
+                        text-align: center;
+                        margin-bottom: 1.3vw;
+                    }
+                    
+                    p {
+                        font-size: 2vw;
+                        text-align: center;
+                    }
+                }
+
+                .infos {
+                    margin-left: 0.4vw;
+                    padding-right: 0;
+                    margin-top: 6vw;
+
+                    p {
+                        font-size: 2vw;
+                        line-height: 3.5vw;
+                    }
+                }
+            }
+        }
+
+        .img-sobre-nos {
+            img {
+                width: 65%;
+                margin: 10% auto
+            }
+        }
+    }
+
+    .cases {
+        padding: 0;
+
+        h1 {
+            font-family: 'Pirulen', sans-serif;
+            margin-bottom: 25px;
+            color: black;
+            font-size: 8vw;
+        }
+    }
+
+    .contato {
+        .celular {
+            animation-name: fadeInRight;
+            
+            img {
+                max-width: 140%;
+                width: 140%;
+                margin-top: 80px;
+                margin-left : -30%;
+            }
+        }
+        
+        .caeli-form {
+            animation-name: fadeInLeft;
+            padding: 0;
+            
+            h1 {
+                font-size: 4.8vw;
+                margin-left: 0%;
+                margin-top: 10px;
+                
+            }
+    
+            .form-div {
+                margin-top: 0%;
+                margin-left: 0%;
+
+                .input-box {
+                    margin-bottom: 0;
+
+                    .form-control {
+                        height: 8vw;
+                        font-size: 2.5vw;
+                        
+                        &::placeholder {
+                            font-size: 2.8vw;
+                        }
+                    }
+                }
+
+                .obrigatorio {
+                    small {
+                        font-size: 65%;
+                    }
+                }
+
+                .btn-enviar {
+                    margin-top: 10px;
+                    justify-content: left;
+                    
+                    button {
+                        height: 31px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        .rodape {
+            text-align: left;
+            padding: 0;
+            margin-top: 4vw;
+            margin-bottom: 2%;
+            
+            p {
+                font-size: 2.6vw;
+            }
+    
+            .copyright {
+                font-size: 2vw;
+                margin-bottom: 5%;
+            }
+            
+        }
+    }   
+}
 
 /* Small */
-@media(min-width:768px) and (max-width:991px) {}
+@media(min-width:768px) and (max-width:991px) {
+    .sobre-nos {
+        .txt-sobre-nos {
+            padding-left: 3%;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 11px;
+                margin-bottom: 15px;
+            }
+
+            .boxes {
+                margin-top: 20px;
+                
+                .branding {
+                    width: 49%;
+                    height: 21vw;
+                    padding: 0 10px;
+
+                    h3 {
+                        font-size: 1.8vw;
+                        text-align: center;
+                    }
+                    
+                    p {
+                        font-size: 1.1vw;
+                        text-align: center;
+                    }
+                }
+                
+                .digital {
+                    width: 49%;
+                    height: 21vw;
+                    padding: 0 10px;
+                    margin-left: 2%;
+
+                    h3 {
+                        font-size: 1.8vw;
+                        text-align: center;
+                    }
+                    
+                    p {
+                        font-size: 1.1vw;
+                        text-align: center;
+                    }
+                }
+
+                .estrategias {
+                    width: 49%;
+                    height: 21vw;
+                    padding: 0 10px;
+
+                    h3 {
+                        font-size: 1.5vw;
+                        text-align: center;
+                    }
+                    
+                    p {
+                        font-size: 1.1vw;
+                        text-align: center;
+                    }
+                }
+
+                .infos {
+                    margin-left: 0.4vw;
+                    padding-right: 0;
+
+                    p {
+                        font-size: 1.14vw;
+                        line-height: 1.6vw;
+                    }
+                }
+            }
+        }
+    }
+    
+    .contato {
+        .caeli-form {
+            h1 {
+                margin-top: 15px;
+            }
+    
+            .form-div {
+                margin-top: 3%;
+                margin-left: -3%;
+
+                .input-box {
+                    margin-bottom: 0.5vw;
+
+                    .form-control {
+                        height: 35px;
+                        
+                        &::placeholder {
+                            font-size: 11px;
+                        }
+                    }
+                }
+
+                .obrigatorio {
+                    small {
+                        font-size: 65%;
+                    }
+                }
+            }
+        }
+
+        .rodape {
+            margin-bottom: 5%;
+            
+            p {
+                font-size: 10px;
+                
+            }
+    
+            .copyright {
+                font-size: 8px;
+            }
+            
+        }
+    }
+}
 
 /* Medium */
-@media(min-width:992px) and (max-width:1199px) {}
+@media(min-width:992px) and (max-width:1199px) {
+    .sobre-nos {
+        .txt-sobre-nos {
+            h1 {
+                font-size: 50px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+            .boxes {
+                .branding {
+                    width: 49%;
+                    height: 15.6vw;
+                    padding-left: 20px;
+
+                    p {
+                        font-size: 0.9vw;
+                    }
+                }
+                
+                .digital {
+                    width: 49%;
+                    height: 15.6vw;
+                    padding-left: 20px;
+                    margin-left: 2%;
+
+                    p {
+                        font-size: 0.9vw;
+                    }
+                }
+
+                .estrategias {
+                    width: 49%;
+                    height: 15.6vw;
+                    padding-left: 20px;
+
+                    p {
+                        font-size: 0.86vw;
+                    }
+                }
+
+                .infos {
+                    margin-left: 0.4vw;
+                }
+            }
+        }
+    }
+
+    .contato {
+        .caeli-form {
+            .form-div {
+                margin-top: 3%;
+                margin-left: -3%;
+
+                .input-box {
+                    margin-bottom: 1.5vw;
+
+                    .form-control {
+                        height: 35px;
+                        
+                        &::placeholder {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .obrigatorio {
+                    small {
+                        font-size: 75%;
+                    }
+                }
+            }
+        }
+    }
+}
 
 /* Large */
 @media(min-width:1200px) {}
