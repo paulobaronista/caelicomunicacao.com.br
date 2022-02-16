@@ -113,8 +113,8 @@
 
                 <div class="input-box">
                     <div class="custom_select">
-                        <select id="assunto1" class="assunto form-control" name="assunto1" required="required">
-                            <option value="" disabled selected>ASSUNTO*</option>
+                        <select id="assunto1" class="assunto form-control" name="assunto1">
+                            <option value="" disabled selected>ASSUNTO</option>
                             <option value="Dúvidas ou Sugestões">Dúvidas ou Sugestões</option>
                             <option value="Outros assuntos">Outros assuntos</option>
                         </select>
