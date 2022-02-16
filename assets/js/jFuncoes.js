@@ -113,23 +113,16 @@ $(document).ready(function () {
 $(function () {
     $('.nome').clear();
     $('.email').clear();
-    $('.telefone').clear();
     $('.assunto1').clear();
     $('.msg').clear();
 
     $('.btn_enviar').on('click', function () {
-        var n, e, t, a, m;
+        var n, e, a, m;
         var msg = "";
         n = $('.nome').val();
         e = $('.email').val();
-        t = $('.telefone').val();
         a = $('.assunto1').val();
         m = $('.msg').val();
 
-        if (n !== '' && e !== '' & t !== '' && a !== '' && m !== '') {
-            setTimeout(function() { 
-                $(".btn_enviar").attr('disabled', 'disabled');
-            }, 1000);
-        }
     });
 });
